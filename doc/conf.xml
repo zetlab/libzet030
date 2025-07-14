@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Config version="1.2">
+  <Device name="ZET 030-I" type="30" serial="23001">
+    <Ethernet method="static" addr="192.168.1.100/24" ftp="no" />
+    <Freq>25000</Freq>
+    <Channel>0xf</Channel>
+    <HCPChannel>0x0</HCPChannel>
+    <KodAmplify>0,0,0,0</KodAmplify>
+    <DigitalResolChanADC>4.65661e-09,4.65661e-09,4.65661e-09,4.65661e-09</DigitalResolChanADC>
+    <Recorder start="button" />
+    <RecordMinutes>10</RecordMinutes>
+  </Device>
+</Config>
